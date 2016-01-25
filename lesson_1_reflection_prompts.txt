@@ -1,0 +1,26 @@
+Q. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	A. Makes it easier to pinpoint the spot where things have changed in the new version of the file compared to the old one. That makes it a lot easier to tell exactly where the changes happened and figure out if something went wrong. 
+
+Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	A. You can easily go back and forth between versions of the code you have worked on and in case of a disaster completely backup to a working version, it also helps figure out what changes caused an issue and to fix such issues.
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	A. Pro's
+		- Flexibility for the user to decide when to commit
+		- Provides the user or team to determine a standard way for commits
+		- Easy to get used to
+	   Cons
+		- Pron to user error
+		- May become a bad habit of committing too often
+
+Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	A. Because of their purpose, Google Docs is oriented to Papers, presentations, spreadsheets and similar kind of files, while Git is more Software development oriented, it also may have to do with the fact that in a software development oriented version control there are more interrelations than when working on papers or presentations.
+
+Q. How can you use the commands git log and git diff to view the history of files?
+	A. Git log will show the different entries made into one file in the repository, git diff can compare to different commits of one file to figure out the cahnges between each commit.
+
+Q. How might using version control make you more confident to make changes that could break something?
+	A. VC will prevent or help revert such changes in case something goes wrong by simply going back to a working version of the app.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+	A. I'd like to know and better understand the Version Control systems for a future opportunity of working on a development role.
