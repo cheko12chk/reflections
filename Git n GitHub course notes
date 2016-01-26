@@ -1,0 +1,21 @@
+Git n GitHub course notes
+
+Git log. Shows the version history of the files contained in the repository
+
+Git diff. Compares 2 different versions of a file and points out its differences
+
+Git log modified. Git log can be modified to display the number of lines modified and removed per version <figure out modifier>
+
+Press q while looking at the log or comparing files to "quit" the command.
+
+Error and warning messages in Git
+
+	Should not be doing an octopus 
+		Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+	You are in 'detached HEAD' state 
+		HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Git checkout can be used to use a previous version of the app in the repository, this can help to figure out what version of the code introduced an issue into the app. Make sure to store the latest version's id to go back to the current version of the app.
+
+Git clone allows the user to get copy the indicated repository to his computer, this includes the versions of the files in the repository. 
