@@ -4,3 +4,9 @@ Q. What happens when you initialize a repository? Why do you need to do it?
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
 	A. The staging area is just a space we can manipulate before commiting changes for good to the repository, I assume we can remove files from the staging area as we can add them and decide when to submit those changes to the repository.
+	The repository is the container of the project, it keeps track of the changes commited to it.
+	The Working directory is the physical location of the folder in your computer where the files are stored.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+	A. You can make sure you stage the changes logically and then compare what you have in the staging area to what we have in the repository, that way you can confirm you have specific changes all in one single commit before moving forward with it.
+
