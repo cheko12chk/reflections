@@ -10,3 +10,15 @@ Q. How is the staging area different from the working directory and the reposito
 Q. How can you use the staging area to make sure you have one commit per logical change?
 	A. You can make sure you stage the changes logically and then compare what you have in the staging area to what we have in the repository, that way you can confirm you have specific changes all in one single commit before moving forward with it.
 
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	A. I think branches can help when we want to add a new big feature to our project, or make drastic changes to the same but knowing that if at some point we don't want to move forward with them or something goes wrong, we can always go back to the working/stable version.
+
+Q, How do the diagrams help you visualize the branch structure?
+	A. They help understand the history of commits in a branch and the interconnections with other branches, it can also help figure out where different code changes were introduced and the possibility of merging both those changes if needed, figuring out which impacts will come up while merging.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	A. Merging two branches allows us to put together to lines of work, there might be times in the real world when a new functionality needs to be introduced to an application, and it could take some time for its development to complete, using a new branch allows us to continue working on smaller changes, while at the same time creating the new functionality, and at the end of the job, bring them together so we can add the new functionality to the main application. 
+	The diagrams hep us understand where we splitted the work, what changes exist in each of the branches and when we merge them together, how they interact.
+
+Q . What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	A. Automatic merging gives the user the freedom of relying on Gits engine to figure out there are no conflicts between the two branches we are trying to merge, when Git identifies conflicts, it notifies the user so that he can manually identify the conflicting changes and gives the user the opportunity to clear those conflicts manually before creating the new merged branch. Doing it manually everytime allows the user a closer control of the changes that are being introduced, however doing it manually all the time might run into many times when there are no conflicts and the work is unnecessary, so it's a good idea to rely on git's hability to identify conflicts.
