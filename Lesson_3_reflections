@@ -1,2 +1,10 @@
 Q. When would you want to use a remote repository rather than keeping all your work local?
   A. When you are worcking colaborately it's helpful to work on a remote repository so more than one person can access it, it also helps when you need to access your work and you are not on your own computer, you can access it from any computer by just logging into github.
+
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  A. It's recommended to only manually pull the changes from the remote so you can have control on what version of the repository you have on your local, it is also very helpful when you are working in colaboration with other people and you need to keep a version of the reposiroty where you are working on and not interfere with any other people's changes.
+
+Q. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  A. A fork is copy of someone's repository into your GitHub account.
+     Clone is a copy of a repository into the local machine of the user doing the clone, when doing a clone Git automatically sets the remote repository as origin (local name of the remote repo)
+     
